@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
  @RestController
 public class QrCodeController {
     @PostMapping
-    public ResponseEntity<QrCodeGenerateResponse> generate(RequestBody QrCodeGenerateRequest request){
+    public ResponseEntity<QrCodeGenerateResponse> generate(RequestBody QrCodeGenerateRequest ){
 
         return null;
     }
